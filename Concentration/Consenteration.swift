@@ -11,6 +11,7 @@ import Foundation
 class Consenteration
 {
     private(set) var cards = [Card]()
+    
     var flipCount = 76
     
     var gameMode = 0
