@@ -18,6 +18,8 @@ class Consenteration
     
     var score = 0
     
+    var startingChooseTime: Date?
+    
     var misMatchID:[Int: Bool] = [1: false, 2: false,3: false,
                                   4: false, 5: false, 6:false,
                                   7: false, 8: false]
@@ -43,6 +45,10 @@ class Consenteration
                     cards[matchIndex].isMatched = true
                     cards[index].isMatched = true
                     score += 2
+                    let matchingTime = Int(Date().timeIntervalSince(startingChooseTime!))
+                    if matchingTime < 2 {
+                        score += 1
+                    }
                 } else {
                     if misMatchID[cards[matchIndex].identifier] == true{
                         score -= 1
@@ -59,6 +65,7 @@ class Consenteration
             } else {
                 // either no card or 2 are face up
                 comparingWithCard = index
+                startingChooseTime = Date()
             }
         }
     }
