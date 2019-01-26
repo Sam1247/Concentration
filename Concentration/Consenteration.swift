@@ -41,7 +41,7 @@ class Consenteration
             flipCount += 1
             if let matchIndex = comparingWithCard, matchIndex != index {
                 // check if cards match
-                if cards[matchIndex].identifier == cards[index].identifier {
+                if cards[matchIndex] == cards[index] {
                     cards[matchIndex].isMatched = true
                     cards[index].isMatched = true
                     score += 2

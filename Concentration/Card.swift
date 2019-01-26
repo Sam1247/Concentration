@@ -25,3 +25,9 @@ struct Card
         self.identifier = Card.getUniqueIdentifier()
     }
 }
+
+extension Card : Equatable {
+    static func == (lhs: Card, rhs: Card) -> Bool {
+        return lhs.identifier == rhs.identifier
+    }
+}
