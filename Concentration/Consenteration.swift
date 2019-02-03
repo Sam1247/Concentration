@@ -53,7 +53,7 @@ class Consenteration
                     if misMatchID[cards[matchIndex].identifier] == true{
                         score -= 1
                         if misMatchID[cards[index].identifier] == true{
-                            score -= 1
+                            score -= 1 
                         }
                     }
                     else {

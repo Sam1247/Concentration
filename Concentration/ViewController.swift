@@ -25,14 +25,22 @@ class ViewController: UIViewController {
         for index in 0..<emojiChoises.count {
             emoji[index] = emojiChoises[index]
         }
+        // adding rounded courners
+        for index in 0..<cardButtons.count {
+            cardButtons[index].layer.cornerRadius = 5
+        }
+        newGameButton.layer.cornerRadius = 12
+        
     }
     
     @IBOutlet private var cardButtons: [UIButton]!
     @IBOutlet private weak var flipCountLabel: UILabel!
     @IBOutlet private weak var scoreLabel: UILabel!
     
+    @IBOutlet weak var newGameButton: UIButton!
     
     @IBAction func touchCard(_ sender: UIButton) {
+        sender.shake()
         if let cardNumber = cardButtons.index(of: sender){
             game.chooseCard(at: cardNumber)
             updateViewFromModel()
@@ -42,6 +50,8 @@ class ViewController: UIViewController {
     }
     
     @IBAction func newGame(_ sender: UIButton) {
+        //sender.flash()
+        sender.pulsate()
         game.newGame()
         updateViewFromModel()
     }

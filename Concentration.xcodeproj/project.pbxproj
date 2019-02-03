@@ -10,6 +10,7 @@
 		20755D732144927400ADE3B5 /* shuffleEx.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20755D722144927400ADE3B5 /* shuffleEx.swift */; };
 		207DE0FC214186E0004295A2 /* Consenteration.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207DE0FB214186E0004295A2 /* Consenteration.swift */; };
 		207DE0FE214187D3004295A2 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 207DE0FD214187D3004295A2 /* Card.swift */; };
+		2086FFD922075CE1006B391D /* UIButtonExtention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2086FFD822075CE1006B391D /* UIButtonExtention.swift */; };
 		20DD27242139B4F100B69F84 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DD27232139B4F100B69F84 /* AppDelegate.swift */; };
 		20DD27262139B4F100B69F84 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 20DD27252139B4F100B69F84 /* ViewController.swift */; };
 		20DD27292139B4F100B69F84 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 20DD27272139B4F100B69F84 /* Main.storyboard */; };
@@ -21,6 +22,7 @@
 		20755D722144927400ADE3B5 /* shuffleEx.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = shuffleEx.swift; sourceTree = "<group>"; };
 		207DE0FB214186E0004295A2 /* Consenteration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Consenteration.swift; sourceTree = "<group>"; };
 		207DE0FD214187D3004295A2 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		2086FFD822075CE1006B391D /* UIButtonExtention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonExtention.swift; sourceTree = "<group>"; };
 		20DD27202139B4F100B69F84 /* Concentration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Concentration.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		20DD27232139B4F100B69F84 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		20DD27252139B4F100B69F84 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -62,6 +64,7 @@
 			children = (
 				20755D722144927400ADE3B5 /* shuffleEx.swift */,
 				20DD27252139B4F100B69F84 /* ViewController.swift */,
+				2086FFD822075CE1006B391D /* UIButtonExtention.swift */,
 				20DD27272139B4F100B69F84 /* Main.storyboard */,
 				207DE0FB214186E0004295A2 /* Consenteration.swift */,
 				207DE0FD214187D3004295A2 /* Card.swift */,
@@ -154,6 +157,7 @@
 			files = (
 				20755D732144927400ADE3B5 /* shuffleEx.swift in Sources */,
 				20DD27262139B4F100B69F84 /* ViewController.swift in Sources */,
+				2086FFD922075CE1006B391D /* UIButtonExtention.swift in Sources */,
 				20DD27242139B4F100B69F84 /* AppDelegate.swift in Sources */,
 				207DE0FC214186E0004295A2 /* Consenteration.swift in Sources */,
 				207DE0FE214187D3004295A2 /* Card.swift in Sources */,
