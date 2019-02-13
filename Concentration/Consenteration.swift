@@ -12,7 +12,7 @@ class Consenteration
 {
     private(set) var cards = [Card]()
     
-    var flipCount = 76
+    var flipCount = 0
     
     var gameMode = 0
     
